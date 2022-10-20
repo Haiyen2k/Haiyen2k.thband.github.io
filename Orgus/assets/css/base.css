@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #fff; 
+    font-family: 'Montserrat', sans-serif;*/
+}
+
+:root{
+    --primary-color: #ff9a1d;
+    --text-color: #737373;
+    --color-left: #ff8814;
+    --color-right: #ffb539;
+    --border-color: #efefef;
+}
+/* ---------------------Responsive---------------------- */
+
+

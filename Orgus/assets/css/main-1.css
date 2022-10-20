@@ -1,0 +1,343 @@
+/* ----------------------About us------------------- */
+
+.about-us{
+    margin-top: 190px;
+}
+
+.about-left{
+    display: flex;
+    justify-content: center;
+}
+
+.about-right{
+    padding-right: 0;
+}
+
+.about-title{
+    width: 640px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.about-description{
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--text-color);
+    width: 538px;
+    text-align: justify;
+    /* margin-top: 20px; */
+}
+
+.about-down-1{
+    display: flex;
+    padding: 76px 0 46px;
+    border-bottom: 1px solid var(--border-color);   
+    align-items: center;
+    width: fit-content;
+}
+
+.about-img{
+    width: fit-content;
+    height: fit-content;
+    margin-right: 70px;
+}
+
+.our-mission{
+    font-size: 30px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.natural-food{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 58px;
+    line-height: 70px;
+}
+
+.about-description-{
+    margin-top: 28px; 
+    width: 700px;
+}
+
+/* -------------------------------Services------------------------- */
+.services{
+    height: 1130px;
+    width: 100%;
+    background-image: url(../image/services/image-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 127px;
+}
+
+.mid{
+    margin: 0 25px;
+}
+
+.services-title{
+    /* width: fit-content; */
+    margin: 0 auto;
+    background-image: url(../image/services/icon-veget.png);
+    background-repeat: no-repeat;
+    padding-top: 168px;
+    background-position-x: 20px;
+    background-position-y: 94px;
+}
+
+.title-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 36px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+}
+
+.icon-service-text {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 40px 40px 0px;
+    height: 40px;
+    width: 155px;
+    color: var(--primary-color);
+    /* position: relative; */
+}
+
+.icon-service {
+    position: relative;
+    /* left: 556px; */
+    z-index: 1;
+}
+
+.title-content {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: bold;
+    margin-bottom: 19px;
+
+}
+
+.title-img{
+    display: flex;
+    justify-content: center;
+}
+/*  */
+.services-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 118px;
+}
+
+.services-content-des{
+    width: 370px;
+    height: 490px;
+    background-color: white;
+}
+
+.services-des{
+    width: 264px;
+    height: 368px;
+    margin: 45px auto;
+}
+
+.services-icon{
+    width: 125px;
+    height: 125px;
+    background-color: var(--border-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    z-index: 1;
+}
+
+.services-des-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    width: 200px;
+}
+
+.services-des-content{
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--text-color);
+}
+
+.services-des-border{
+    display: flex;
+    margin: 30px 0;
+}
+
+.services-des-border- {
+    width: 4px;
+    height: 4px;
+    border: 2px solid var(--primary-color);
+    margin-right: 5px;
+}
+
+.services-des-border--{
+    width: 43px;
+    height: 4px;
+    border: 2px solid var(--primary-color);
+}
+
+.services-icon-effect{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-icon-2{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* display: none;     */
+    transform: translateX(-300%);
+    animation: FadeIn linear 0.5s;
+    transition: transform linear 0.5s;
+}
+
+@keyframes FadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.services-effect:hover{
+    background-image: linear-gradient(to bottom, var(--color-left), var(--color-right));
+    color: white;
+}
+.services-effect:hover .services-icon-2{
+    display: flex;
+    cursor: pointer;
+    transform: translateX(0%);
+    color: var(--primary-color);
+}
+.services-effect:hover .services-icon{
+    background-color: white;
+}
+.services-effect:hover .services-des-border-{
+    border: 2px solid white;
+}
+.services-effect:hover .services-des-border--{
+    border: 2px solid white;
+}
+.services-effect:hover .services-des-content{
+    color: white;
+}
+
+/* -------------------------------------------Feaatures-------------------------------------- */
+.features{
+    height: 337px;
+    background-image: url(../image/features/image-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    flex-wrap: wrap;
+}
+
+.features-content{
+    width: 23.4%;
+    color: white;
+    margin: 0 5px;
+}
+
+.features-des-title{
+    font-size: 24px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.features-des-des{
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--text-color);
+}
+
+/* ---------------------------------Farmers------------------------------------ */
+.farmers{
+    height: 1080px;
+}
+
+.farmers-content-des{
+    background-color: var(--border-color);
+    height: 440px;
+    position: relative;
+}
+
+.farmer-img{
+    display: flex;
+    justify-content: center;
+}
+
+.farmer-des-border{
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.farmer-des-title{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.farmer-des-content{
+    display: flex;
+    justify-content: center;
+}
+
+.farmers-icon-2{
+    position: absolute;
+    top: -14px;
+    right: 20px;
+    display: none;
+    transform: translateX(0);
+}
+
+.farmers-content-des:hover{
+    background-image: linear-gradient(to bottom, var(--color-left), var(--color-right));
+    color: white;
+}
+
+.farmers-content-des:hover .farmers-icon-2{
+    display: flex;
+    cursor: pointer;
+}
+
+.farmers-content-des:hover img{
+    border: 2px solid white;
+    background-color: white;
+}
+.farmers-content-des:hover .services-des-border-{
+    border: 2px solid white;
+}
+.farmers-content-des:hover .services-des-border--{
+    border: 2px solid white;
+}
+.farmers-content-des:hover .services-des-content{
+    color: white;
+}

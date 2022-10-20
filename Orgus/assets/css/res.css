@@ -1,0 +1,770 @@
+@media (min-width: 1540px){
+    /* Header */
+    .logo-header-res{
+        width: 21.7%;
+        justify-content: right;
+    }
+    .menu-header{
+        width: 49.7%;
+        display: flex;
+        justify-content: center;
+    }
+    .menu-header ul li{
+        margin-right: 10px;
+    }
+    .menu-header-child ul li {
+        margin-right: 0px;
+    }
+    .cart-contact{
+        position: absolute;
+        width: 30%;
+    }
+    .icon-cart{
+        margin-left: 148px;
+        margin-right: 30px;
+    }
+
+    /* services */
+    .services-title {
+        background-position-x: 140px;
+    }
+
+    /* Features */
+    .features-content{
+        width: 23.8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features-des {
+        margin: 0 95px 0 35px;
+    }
+    
+    /* Countdown */
+    .countdown-content{
+        width: fit-content;
+    }
+    .countdown-des{
+        margin-right: 40px;
+    }
+
+    /* projects */
+    .projects-icon{
+        margin-left: 422px;
+    }
+    .projects-content--{
+        margin-left: 376px;
+    }
+    .projects-content {
+        margin-left: -165px;
+    }
+    .project-img {
+        width: 540px;
+        height: 540px;
+    }
+
+    /* brand */
+    .brand-content {
+        justify-content: center;
+    }
+    .brand-content-text {
+        margin-right: 245px;
+      }
+}
+/* -------------------------------------------------------1349------------------------------------------ */
+@media (max-width: 1349px) {
+    /* header */
+    .header-top-1{
+        display: none;
+    }
+    .cart-contact--{
+        background-image: none;
+    }
+    .header-top-2 {
+        top: -5px;
+        align-items: center;
+    }
+    .menu-header ul {
+        padding-left: 10px;
+    }
+    .cart-contact {
+        right: 5px;
+    }
+    .icon-cart{
+        background-color: var(--border-color);
+    }
+
+    /* about-us */
+    .about-left{
+        display: none;
+    }
+    .about-right {
+        margin: auto;
+    }
+
+    /* services */
+    .services-title {
+        background-image: none; 
+    }
+
+    /* projects */
+    .project-img {
+        width: 350px;
+        height: 350px;
+    }
+}
+/*  */
+.header-top-option{
+    display: none;
+}
+
+.navbar-bars{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.nav-mobile{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 320px;
+    max-width: 100%;
+    background-color: white;
+    transform: translateX(-100%);
+    transition: all linear 0.2s;
+    opacity: 0;
+    box-shadow: 2px 2px 2px #dad9d9;
+    padding: 0;
+}
+
+.label-close{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-left: 1px solid rgb(190, 188, 188);
+    cursor: pointer;
+}
+
+.nav-close{
+    font-size: 28px;
+    padding: 10px 15px;
+    opacity: 0.8;
+}
+
+.nav-list{
+    margin-top: 50px;
+    border-bottom: 1px solid rgb(190, 188, 188);
+}
+
+.nav-link{
+    height: 50px;
+    border-top: 1px solid rgb(190, 188, 188);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-link:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.nav-input:checked ~ .nav-mobile{
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.nav-input:checked ~ .overlay{
+    display: block;
+}
+.menu-header-child-option ul li {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(190, 188, 188);
+}
+.menu-header-child-option {
+    left: 321px;
+    height: fit-content;
+    top: 0;
+}
+/* -------------------------------------------------------1200------------------------------------------ */
+@media (max-width: 1200px){
+    /* header */
+    .menu-header, .cart-contact{
+        display: none;
+    }
+    .logo-header-res{
+        width: 100%;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-top-option{
+        display: block;
+        position: absolute;
+        left: 20px;
+    }
+    .nav-link:hover .menu-header-child-option{
+        display: block;
+        color: black;
+    }
+    .logo-header {
+        margin-left: 0;
+    }
+    /* banner */
+    .banner {
+        height: 652px;
+        background-position-x: -590px;
+        background-position-y: -230px;
+    }
+    .content-banner {
+        margin-left: 50px;
+        padding-top: 50px;
+    }
+    .text-banner-2{
+        width: 430px;
+    }
+    /* services */
+    .services-content {
+        flex-wrap: wrap;
+    }
+    .services-content-des {
+        margin-top: 10px;
+    }
+    .services {
+        height: fit-content;
+        background-repeat: repeat;
+    }
+    .services-content {
+        flex-wrap: wrap;
+    }
+    .services-content-des {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    /* farmers */
+    .farmers {
+        height: fit-content;
+    }
+
+    /* projects */
+    .projects {
+        height: 1250px;
+    }
+    .projects-icon {
+        justify-content: center;
+        margin-left: 0;
+    }
+    .project-img {
+        margin: 10px;
+    }
+
+    /* P-P */
+    .price-planning {
+        height: fit-content;
+    }
+    .price-planning-des {
+        margin: 10px;
+    }
+
+    /* blog */
+    .blog-post-post {
+        margin: 10px;
+    }
+}
+/* -------------------------------------------------------1024----------------------------------------- */
+@media (max-width: 1024px){
+    /* about us */
+    .about-title {
+        width: 100%;
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .about-up {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .natural-food {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .about-description- {
+        width: 100%;
+    }
+    .about-down-1 {
+        display: block;
+        padding: 50px 0 46px;
+        width: 100%;
+    }
+    .about-down {
+        margin-left: 0px;
+    }
+    .about-img {
+        margin-bottom: 20px;
+    }
+    .about-description{
+        width: 100%;
+    }
+    .title-content{
+        font-size: 40px;
+    }
+    .mid{
+        margin-right: 0;
+    }
+
+    /* products */
+    .product-img{
+        padding-top: 0;
+    }
+    .farmer-des-title{
+        font-size: 25px;
+    }
+    .products {
+        height: 1600px;
+    }
+    .product-content {
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+    .product-product {
+        margin-top: 10px;
+    }
+}
+/* -------------------------------------------------------992------------------------------------------ */
+@media (max-width: 992px){
+    .testimonial {
+        height: 1600px;
+    }
+    .testi {
+        height: 1200px;
+        flex-wrap: wrap;
+    }
+    .testi-review {
+        width: 90%;
+        margin: 10px 0;
+    }
+    .testi-review-content {
+        width: 90%;
+    }
+    .testi-review-title {
+        justify-content: left;
+    }
+
+    /* brand */
+    .brand-content {
+        margin: 0 15px;
+    }
+
+    /* footer */
+    footer {
+        height: fit-content;
+        padding-bottom: 90px;
+    }
+    .footer-copyright {
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .footer-right-bot{
+        justify-content: center;
+    }
+    .footer-title {
+        margin-left: 0;
+    }
+    
+}
+/* -------------------------------------------------------768------------------------------------------ */
+@media (max-width: 768px){
+    /* banner */
+    .text-banner-1 {
+        font-size: 65px;
+        line-height: 75px;
+        width: 400px;
+      }
+    .text-banner-2 {
+        font-size: 16px;
+        width: 350px;
+        line-height: 25px;
+        padding-left: 0;
+    }
+    .text-banner-3 {
+        padding-left: 0;
+    }
+    .banner {
+        background-position-x: -890px;
+        background-position-y: 0px;
+    }
+    /* services */
+    .services{
+        height: fit-content;
+        background-repeat: repeat-y;
+    }
+    .mid{
+        margin: 0 auto;
+    }
+    .services-content {
+        display: block;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    .services-content-des {
+        width: 90%;
+        height: 450px;
+        margin: 0 auto;
+    }
+    .services-des {
+        width: 80%;
+    }
+    .services-icon-effect {
+        padding-top: 40px;
+    }
+    .services-des-title {
+        width: 280px;
+    }
+
+    /* features */
+    .features{
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+    .features-content{
+        width: 47%;
+        margin: 10px 5px;
+    }
+    /* farmers */
+    .farmers {
+        height: fit-content;
+    }
+    .farmer-img {
+        padding-top: 40px;
+    }
+    .farmer-des-title {
+        width: auto;
+    }
+
+    /* projects */
+    .projects{
+        height: fit-content;
+    }
+    .projects-icon {
+        justify-content: center;
+        margin-left: 0;
+    }
+    .projects-content {
+        width: 80%;
+    }
+    .project-img {
+        width: 75%;
+        height: fit-content;
+        margin: 20px auto;
+    }
+    .projects-products {
+        display: block;
+        height: fit-content;
+    }
+
+    /* products */
+    .product-product {
+        width: 239px;
+        margin: 5px 1px;
+    }
+
+    /* P-P */
+    .price-planning {
+        height: fit-content;
+    }
+    .price-planning-content {
+        display: block;
+        padding-top: 50px;
+    }
+    .price-planning-des {
+        width: 48%;
+        margin: 20px auto;
+    }
+
+    /* testi */
+    .testi-title-right {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: -9px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    .testi-review-con {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .testi-client-des-name {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    /* brand */
+    .brand-content{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .brand-content-text {
+        width: 100%;
+        font-size: 47px;
+        line-height: 55px;
+    }
+    .brand-img img {
+        margin: 10px 16px;
+    }
+    .brand-logo {
+        margin-top: 200px;
+    }
+
+    /* blog */
+    .blog-post-content {
+        display: block;
+        margin-top: 50px;
+    }
+    .blog-post-post {
+        margin: 20px auto;
+    }
+
+    /* footer */
+    .footer-logo, .footer-title{
+        margin: 10px auto;
+    }
+    .footer-title{
+        width: fit-content;
+    }
+}
+/* -------------------------------------------------------480------------------------------------------ */
+@media (max-width: 480px){
+    /* banner */
+    .content-banner {
+        margin-left: 35px;
+        padding-top: 35px;
+      }
+    .text-banner-1 {
+        font-size: 45px;
+        line-height: 55px;
+        width: 289px;
+      }
+    .text-banner-2 {
+        font-size: 15px;
+        width: 265px;
+        line-height: 25px;
+        padding-left: 0;
+    }
+    .text-banner-3 {
+        padding-left: 0;
+        width: 200px;        
+    }
+    .text-banner-3 img {
+        padding-top: 15px;
+    }
+    .banner {
+        background-position-x: -890px;
+        background-position-y: 0px;
+    }
+
+    /* features */
+    .features-des-des{
+        display: none;
+    }
+    .features-content {
+        width: 40%;
+    }
+    .features-des-title {
+        font-size: 20px;
+    }
+
+    /* products */
+    .product-product {
+        width: 45%;
+    }
+    .product-product {
+        margin: 5px 5px;
+    }
+    .services-des-title {
+        font-size: 22px;
+    }
+    .product-effect-icon i {
+        width: 35px;
+        height: 35px;
+    }
+    .product-effect-btn{
+        width: 100%;
+    }
+    .product-image {
+        height: 90%;
+        width: 90%;
+    }
+    /* countdown */
+    .count-down {
+        height: fit-content;
+    }
+    .countdown-content {
+        width: 70%;
+        margin: 20px 0px;
+    }
+    .countdown-des-title{
+        font-size: 25px;
+    }
+    .countdown-des-des{
+        display: block;
+        font-size: 11px;
+        line-height: 15px;
+    }
+    
+    .countdown-des-des {
+        width: 121px;
+    }
+    .products-des {
+        margin-left: 27px;
+    }
+
+    /* P-P */
+    .price-planning-des {
+        width: 77%;
+    }
+
+    /* brand */
+    .brand-content-text {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* testi*/
+    .title-content {
+        font-size: 28px;
+    }
+    /* footer */
+    .footer-bot-text, .footer-bot-text- {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    
+}
+/* -------------------------------------------------------320------------------------------------------ */
+@media (max-width: 320px){
+    /* header */
+    .logo-header {
+        margin-left: 30px;
+    }
+    .content-banner {
+        margin-left: 35px;
+        padding-top: 35px;
+    }
+    .text-banner-1 {
+        font-size: 36px;
+        line-height: 45px;
+        width: 289px;
+    }
+    .text-banner-2 {
+        font-size: 14px;
+        width: 260px;
+    }
+    .banner {
+        height: 500px;
+        background-position-x: -973px;
+        background-position-y: 0px;
+    }
+    /* about us */
+    .about-us {
+        margin-top: 100px;
+    }
+    .about-title {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .natural-food {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .about-description {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .about-right{
+        padding-left: 0px;
+    }
+
+    /* services */
+    .services-des-title {
+        font-size: 20px;
+    }
+    .services-des-content {
+        font-size: 15px;
+    }
+
+    /* features */
+    .features-des-title {
+        font-size: 18px;
+    }
+
+    /* projects */
+    .project-img:hover .project-img-effect {
+        height: 100px;
+    }
+    .project-img-effect-left {
+        font-size: 20px;
+    }
+    .project-img-effect-right {
+        width: 50px;
+        height: 50px;
+    }
+    .project-img-effect-right- {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* P-P */
+    .price-planning-border-hover {
+        right: 15px;
+    }
+    /* testi */    
+    .testi-title-right {
+        font-size: 15px;
+        line-height: 25px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    .testi-review-con {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    /* brand */
+
+    /* footer */
+    
+}
+
+@media (max-width: 390px){
+    .blog-post-post {
+        width: 98%;
+        height: 527px;
+    }
+    .blog-post-post img {
+        width: 100%;
+    }
+    .blog-post-des {
+        margin: 35px 25px 40px;
+    }
+    .blog-post-post:hover .blog-post-des {
+        transform: translateY(-220px);
+    }
+}
